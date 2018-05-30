@@ -23,6 +23,10 @@
       margin: 20px auto;
       display: block;
     }
+    
+    h1 {
+      font-size: 12px;
+    }
 
     h2 {
       font-size: 26px;
@@ -40,15 +44,23 @@
 </head>
 
 <body>
-  <img src="podcast-echo-logo.png" width="200" alt="echo" />
-  <p><i>Podcast tech en français</i></p>
-  <h2>
-    Nous écouter sur <br>
-    <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2FpodcastEcho&color=orange_transparent&size=48" style="width: 48px; height: 48px;"></iframe>
-  </h2>
+  <h1>
+    <img src="podcast-echo-logo.png" width="200" alt="echo" /><br>
+    Podcast tech en français
+  </h1>
+  
+  <h2>Nous écouter</h2>
+  
+  <p>
+    <a href="https://soundcloud.com/podcastecho">Soundcloud</a>
+    |
+    <a href="http://feeds.soundcloud.com/users/soundcloud:users:452524227/sounds.rss">RSS</a>
+  </p>
+  
+  <h2>Recevoir les mises à jour</h2>
+  
   <form action="https://app.mailjet.com/widget/iframe/3aLc/73e" name="form" method="post">
     <div style="display: inline-block; padding-bottom: 15px;">
-      <h2 style="text-align: center;margin-bottom: 10px">Recevoir les mises à jour</h4>
       <div style="display: flex; flex-direction: row;">
         <div style="vertical-align: top; flex-grow: 1; padding: 0px 10px 10px 0px; display: block; width: 100%;">
           <input placeholder="Adresse E-Mail" name="w-field-field-27108-134719-756350-email" required="required" style="box-sizing: border-box; font-family: Ubuntu, Helvetica; font-size: 14px; height: 36px; padding-left: 17px; margin-right: 20px; border-radius: 3px; border: 2px solid rgb(225, 225, 230); width: 100%;" type="email">
@@ -64,17 +76,14 @@
       </div>
     </div>
   </form>
+
   <footer>
-    <a class="twitter-follow-button"
-      href="https://twitter.com/PodcastEcho"
-      data-show-count="false"
-    >
-      Suivre @PodcastEcho
-    </a>
     <p>
-      Fait avec ❤️ chez <a href="https://www.elao.com" title="site web d'élao">élao</a>
+      <a href="https://twitter.com/PodcastEcho">Suivre @PodcastEcho</a>
+    </p>
+    <p>
+      <small>Fait avec ❤️ chez <a href="https://www.elao.com" title="site web d'élao">élao</a></small>
     </p>
   </footer>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
